@@ -17,7 +17,7 @@
 <meta name="keywords" content= "<?php echo $keywords; ?>" />
 <?php } ?>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
- 
+
 <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
@@ -43,20 +43,16 @@
 <header>
   <nav id="top">
   <div class="container">
-
     <div class="row">
- 
-     
-   
-    <div class="col-sm-7"> 
+
+    <div class="col-sm-7">
       <div class="row">
        <div class="col-sm-4"> <?php echo $currency; ?>
     <?php echo $language; ?>
   </div>
-    
       <div class="col-sm-8 top-link">
       <ul class="list-inline">
-        <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
+        <!-- <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li> -->
         <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-right">
             <?php if ($logged) { ?>
@@ -72,7 +68,7 @@
           </ul>
         </li>
         <li><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_wishlist; ?></span></a></li>
-        
+
         <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
       </ul>
     </div>
@@ -81,7 +77,7 @@
        <div class="col-sm-5">
         <div class="row">
          <div class="col-sm-7 col-xs-12"> <?php echo $search; ?></div>
-     
+
         <div class="col-sm-5 col-xs-12"><?php echo $cart; ?> </div> </div>
      </div>
   </div>
