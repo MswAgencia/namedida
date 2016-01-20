@@ -19,14 +19,14 @@ $_['entry_lastname']       = 'Sobrenome:';
 $_['entry_email']          = 'E-mail:';
 $_['entry_telephone']      = 'Telefone:';
 $_['entry_fax']            = 'Fax:';
-$_['entry_company']        = 'Empresa:';
+$_['entry_company']        = 'Nome do Endereço (Ex.: Minha Casa):';
 $_['entry_address_1']      = 'Endereço:';
 $_['entry_address_2']      = 'Bairro:';
 $_['entry_postcode']       = 'CEP:';
 $_['entry_city']           = 'Cidade:';
 $_['entry_country']        = 'País:';
 $_['entry_zone']           = 'Estado:';
-$_['entry_newsletter']     = 'Informativo:';
+$_['entry_newsletter']     = 'Desejo receber novidades e promoções:';
 $_['entry_password']       = 'Senha';
 $_['entry_confirm']        = 'Repetir Senha:';
 
