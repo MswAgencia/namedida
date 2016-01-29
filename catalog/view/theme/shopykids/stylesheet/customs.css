@@ -1,0 +1,39 @@
+#search input {
+  color: #FFF;
+}
+#search input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #FFF;
+}
+#search input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #FFF;
+  opacity:  1;
+}
+#search input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #FFF;
+  opacity:  1;
+}
+#search input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFF;
+}
+#search input:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color: #FFF;
+}
+
+.account-success #content {
+  font-size: 14px;
+}
+
+#column-right .button-group {
+  display: block;
+}
+
+.product-thumb.special .bg-grid {
+  text-align: left;
+  position: static;
+  bottom: auto;
+  right: auto;
+}
+
+#top ul li span {
+  color: #FFF;
+}
