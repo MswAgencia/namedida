@@ -22,3 +22,18 @@
 .account-success #content {
   font-size: 14px;
 }
+
+#column-right .button-group {
+  display: block;
+}
+
+.product-thumb.special .bg-grid {
+  text-align: left;
+  position: static;
+  bottom: auto;
+  right: auto;
+}
+
+#top ul li span {
+  color: #FFF;
+}

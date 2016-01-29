@@ -14,3 +14,4 @@ $_['text_logout']        = 'Sair';
 $_['text_checkout']      = 'Finalizar Compra';
 $_['text_search']        = 'Pesquisar';
 $_['text_all']           = 'Ver Todos';
+$_['_greeting']          = 'Olá %s';
