@@ -45,3 +45,29 @@
 #menu .nav > li > a {
   font-size: 18px;
 }
+
+.box .box-heading span.quero-vender {
+  font-size: 20px;
+  margin-top: -10px;
+  font-family: 'Lobster Two', cursive;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background: #F0821D url(../image/pat-bg.png);
+  color: #EEEEEE;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.box .box-heading span.quero-vender:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  bottom: -8px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid rgba(0, 0, 0, 0);
+  border-right: 8px solid rgba(0, 0, 0, 0);
+  border-top: 8px solid #F0821D;
+}

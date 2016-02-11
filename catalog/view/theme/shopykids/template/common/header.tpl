@@ -126,6 +126,7 @@
         <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
         <?php } ?>
         <?php } ?>
+        <li class="box"><a class="box-heading" href="#"><span class="quero-vender">Quero Vender</span></a></li>
       </ul>
     </div>
   </nav>
