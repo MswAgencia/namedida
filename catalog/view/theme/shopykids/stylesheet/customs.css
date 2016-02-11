@@ -41,3 +41,7 @@
 #content {
   min-height: inherit;
 }
+
+#menu .nav > li > a {
+  font-size: 18px;
+}
