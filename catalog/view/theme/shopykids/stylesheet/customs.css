@@ -37,3 +37,7 @@
 #top ul li span {
   color: #FFF;
 }
+
+#content {
+  min-height: inherit;
+}
