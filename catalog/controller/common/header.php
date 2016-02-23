@@ -85,7 +85,7 @@ class ControllerCommonHeader extends Controller {
 		$data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
-
+    $data['quero_vender'] = $this->url->link('information/sell');
 		$status = true;
 
 		if (isset($this->request->server['HTTP_USER_AGENT'])) {
