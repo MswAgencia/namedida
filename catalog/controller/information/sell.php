@@ -44,7 +44,7 @@ class ControllerInformationSell extends Controller {
 		$data['entry_name'] = $this->language->get('entry_name');
 		$data['entry_email'] = $this->language->get('entry_email');
     $data['entry_enquiry'] = $this->language->get('entry_enquiry');
-    $data['enquire_placeholder'] = $this->language->get('enquire_placeholder');
+    $data['enquiry_placeholder'] = $this->language->get('enquiry_placeholder');
 		$data['entry_images'] = $this->language->get('entry_images');
 
 		if (isset($this->error['name'])) {
