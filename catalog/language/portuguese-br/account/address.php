@@ -14,7 +14,7 @@ $_['text_empty']           = 'Você não tem endereço cadastrado.';
 // Entry
 $_['entry_firstname']      = 'Nome:';
 $_['entry_lastname']       = 'Sobrenome:';
-$_['entry_company']        = 'Empresa:';
+$_['entry_company']        = 'Nome do Endereço (Ex: Minha Casa):';
 $_['entry_address_1']      = 'Endereço:';
 $_['entry_address_2']      = 'Bairro:';
 $_['entry_postcode']       = 'CEP:';
@@ -34,5 +34,4 @@ $_['error_postcode']    = 'O CEP deve ter 8 caracteres!';
 $_['error_city']        = 'A cidade deve ter entre 2 e 128 caracteres!';
 $_['error_country']     = 'Por favor, selecione um país!';
 $_['error_zone']        = 'Por favor, selecione um estado!';
-$_['error_custom_field']   = '%s é obrigato!';
-
+$_['error_custom_field']   = '%s é obrigatório!';
