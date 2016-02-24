@@ -15,7 +15,7 @@
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h1><?php echo $heading_title; ?></h1>
-      
+
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
         <fieldset>
           <legend><?php echo $text_contact; ?></legend>
@@ -40,12 +40,21 @@
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-enquiry"><?php echo $entry_enquiry; ?></label>
             <div class="col-sm-10">
-              <textarea name="enquiry" rows="10" id="input-enquiry" class="form-control"><?php echo $enquiry; ?></textarea>
+              <textarea name="enquiry" rows="10" id="input-enquiry" class="form-control" placeholder="<?= $enquiry_placeholder ?>"><?php echo $enquiry; ?></textarea>
               <?php if ($error_enquiry) { ?>
               <div class="text-danger"><?php echo $error_enquiry; ?></div>
               <?php } ?>
             </div>
           </div>
+          <!-- <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-images"><?php echo $entry_images; ?></label>
+            <div class="col-sm-10">
+              <input name="images[]" id="input-images" class="form-control" type="file" multiple="multiple">
+              <?php if ($error_images) { ?>
+                <div class="text-danger"><?php echo $error_images; ?></div>
+              <?php } ?>
+            </div>
+          </div> -->
           <?php echo $captcha; ?>
         </fieldset>
         <div class="buttons">

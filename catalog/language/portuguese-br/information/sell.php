@@ -16,11 +16,13 @@ $_['text_success']   = '<p>Suas informações foram enviadas com sucesso, em bre
 // Entry
 $_['entry_name']     = 'Nome:';
 $_['entry_email']    = 'E-Mail:';
-$_['entry_enquiry']  = 'Mensagem:';
+$_['entry_enquiry']  = 'Descrição e preços dos produtos:';
+$_['enquiry_placeholder']  = "- Nome Produto\n- Tamanho\n- Cor\n- Estado Produto\n- Marca\n- Preço";
+$_['entry_images']   = 'Imagens do Produto';
 $_['entry_captcha']  = 'Digite o código:';
 
 // Email
-$_['email_subject']  = 'Mensagem %s';
+$_['email_subject']  = '[Quero Vender] %s';
 
 // Errors
 $_['error_name']     = 'Atenção: o nome precisa ter entre 3 e 32 caracteres!';
