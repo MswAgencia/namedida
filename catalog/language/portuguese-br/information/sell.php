@@ -29,3 +29,4 @@ $_['error_name']     = 'Atenção: o nome precisa ter entre 3 e 32 caracteres!';
 $_['error_email']    = 'Atenção: insira um e-mail válido EX: nome@empresa.com.br!';
 $_['error_enquiry']  = 'Atenção: sua mensagem precisa ter entre 10 e 1000 caracteres!';
 $_['error_captcha']  = 'Código de verificação não corresponde à imagem!';
+$_['error_product']  = 'Por favor, verifique os campos. Todos os campos são obrigatórios.';

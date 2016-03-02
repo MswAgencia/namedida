@@ -17,11 +17,11 @@ class ControllerInformationSell extends Controller {
 			$mail->smtp_port = $this->config->get('config_mail_smtp_port');
 			$mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
 
-			$mail->setTo($this->config->get('config_email'));
+      $mail->setTo($this->config->get('config_email'));
 			$mail->setFrom($this->request->post['email']);
 			$mail->setSender(html_entity_decode($this->request->post['name'], ENT_QUOTES, 'UTF-8'));
 			$mail->setSubject(html_entity_decode(sprintf($this->language->get('email_subject'), $this->request->post['name']), ENT_QUOTES, 'UTF-8'));
-			$mail->setText($this->request->post['enquiry']);
+			$mail->setText(create_email_content($this->request->post));
 			$mail->send();
 
 			$this->response->redirect($this->url->link('information/sell/success'));
@@ -64,6 +64,12 @@ class ControllerInformationSell extends Controller {
 		} else {
 			$data['error_enquiry'] = '';
 		}
+
+    if (isset($this->error['error_products'])) {
+      $data['error_products'] = $this->error['error_products'];
+    } else {
+      $data['error_products'] = '';
+    }
 
 		$data['button_submit'] = $this->language->get('button_submit');
 
@@ -130,6 +136,15 @@ class ControllerInformationSell extends Controller {
 			}
 		}
 
+    for($i = 1; $i <= get_fields_quantity(); $i++) {
+      if($this->request->post["condition_{$i}"] == 'condition' or
+         $this->request->post["size_{$i}"] == 'size' or
+         $this->request->post["category_{$i}"] == 'category' or
+         $this->request->post["brand_{$i}"] == ''
+      ) {
+        //$this->error['error_products'][$i] = $this->language->get('error_product');
+      }
+    }
 		return !$this->error;
 	}
 
