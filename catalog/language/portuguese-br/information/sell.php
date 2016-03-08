@@ -17,7 +17,6 @@ $_['text_success']   = '<p>Suas informações foram enviadas com sucesso, em bre
 $_['entry_name']     = 'Nome:';
 $_['entry_email']    = 'E-Mail:';
 $_['entry_enquiry']  = 'Descrição e preços dos produtos:';
-$_['enquiry_placeholder']  = "- Nome Produto\n- Tamanho\n- Cor\n- Estado Produto\n- Marca\n- Preço";
 $_['entry_images']   = 'Imagens do Produto';
 $_['entry_captcha']  = 'Digite o código:';
 
@@ -29,3 +28,4 @@ $_['error_name']     = 'Atenção: o nome precisa ter entre 3 e 32 caracteres!';
 $_['error_email']    = 'Atenção: insira um e-mail válido EX: nome@empresa.com.br!';
 $_['error_enquiry']  = 'Atenção: sua mensagem precisa ter entre 10 e 1000 caracteres!';
 $_['error_captcha']  = 'Código de verificação não corresponde à imagem!';
+$_['error_product']  = 'Por favor, verifique os campos. Todos os campos são obrigatórios.';
