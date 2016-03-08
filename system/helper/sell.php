@@ -46,6 +46,14 @@ function build_field_for_product($index, $error, $fieldsData)
         <option value=\"12\">12</option>
         <option value=\"14\">14</option>
         <option value=\"16\">16</option>
+        <option value=\"18\">18</option>
+        <option value=\"34\">34</option>
+        <option value=\"36\">36</option>
+        <option value=\"38\">38</option>
+        <option value=\"40\">40</option>
+        <option value=\"42\">42</option>
+        <option value=\"44\">44</option>
+        <option value=\"plus size\">Plus Size</option>
       </select>
     </div>
     <div class=\"col-sm-3\">
