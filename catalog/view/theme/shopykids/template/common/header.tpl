@@ -64,7 +64,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     <?php echo $language; ?>
   </div>
 
-      <div class="col-sm-8 top-link">
+      <div class="col-sm-9 top-link">
       <ul class="list-inline">
         <?= ($logged)? "<li><span>{$_greeting}</span></li>" : '' ?>
         <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
